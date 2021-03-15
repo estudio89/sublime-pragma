@@ -1,6 +1,6 @@
 # Sublime Pragma Marks Plugin
 
-To add a pragma mark, simply add a comment with a collon right after the comment start symbol:
+To add a pragma mark, simply add a comment with a colon right after the comment start symbol:
 
 - `#: This is a python pragma mark`
 - `<!-- : This is an HTML pragma mark`
