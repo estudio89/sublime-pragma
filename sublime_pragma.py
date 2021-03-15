@@ -18,6 +18,8 @@ class SublimePragmaListCommand(sublime_plugin.TextCommand):
 					for end_symbols in self.END_COMMENT_SYMBOLS:
 						line = line.replace(end_symbols, "")
 
+					line = line.strip()
+
 					pragma_marks.append(
 						{"name": line, "line_no": line_no}
 					)
