@@ -1,0 +1,5 @@
+[{
+	"id": "sublime_pragma",
+	"caption": "List pragma marks",
+	"command": "sublime_pragma_list"
+}]
