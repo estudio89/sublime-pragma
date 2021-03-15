@@ -7,7 +7,6 @@ class SublimePragmaListCommand(sublime_plugin.TextCommand):
 
 	def run(self, edit):
 		content = self.view.substr(sublime.Region(0, self.view.size() - 1))
-		self.view.set_status("test", content[:10])
 
 		pragma_marks = []
 		for line_no,line in enumerate(content.split("\n")):
