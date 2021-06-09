@@ -1,5 +1,13 @@
 # Sublime Pragma Marks Plugin
 
+## Installation
+
+Clone this repository and create a symlink to it in your Sublime Text packages directory. To figure out your Sublime Text packages directory location, simply open Sublime Text and go to **Sublime Text** >> **Preferences** >> **Browse Packages**. Then, create the symlink via the command line:
+
+`ln -s <path/to/cloned/directory/> <path/to/sublime/packages/directory/>`
+
+## How to
+
 To add a pragma mark, simply add a comment with a colon right after the comment start symbol:
 
 - `#: This is a python pragma mark`
